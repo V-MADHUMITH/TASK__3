@@ -30,7 +30,7 @@ Frontend and backend services are distributed across two cloud providers:
 | Node.js / Python | Backend        | Azure Function code              |
 
 
- Implementation Steps
+ *Implementation Steps
 
 * Frontend (AWS S3)
 - Created an S3 bucket and enabled static website hosting.
@@ -46,8 +46,12 @@ Frontend and backend services are distributed across two cloud providers:
 
 
 
-* Testing
+* Testing:
 
 - Accessed the frontend using the S3 static website URL.
 - Submitted the form and received a real-time response from the Azure backend.
 - Verified Azure Function logs to ensure data was received correctly.
+
+* architecture:
+  
+<img width="104" height="540" alt="Image" src="https://github.com/user-attachments/assets/1291b6ab-da37-49e5-8115-744b93ed0f79" />
